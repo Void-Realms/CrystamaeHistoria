@@ -192,7 +192,7 @@ public class Mechanisms {
             new ItemStack[]{
                 null, new ItemStack(Material.BOOK), null,
                 amalgamateIngotUncommon, realisationAltar1.getItem(), amalgamateIngotUncommon,
-                SlimefunItems.MAGIC_LUMP_3, SlimefunItems.SOULBOUND_RUNE, SlimefunItems.MAGIC_LUMP_3,
+                SlimefunItems.MAGIC_LUMP_3, SlimefunItems.ESSENCE_OF_AFTERLIFE, SlimefunItems.MAGIC_LUMP_3,
             },
             2
         );
@@ -291,7 +291,7 @@ public class Mechanisms {
             new ItemStack[]{
                 amalgamateDustRare, null, amalgamateDustRare,
                 amalgamateDustRare, liquefactionBasin1.getItem(), amalgamateDustRare,
-                amalgamateDustRare, SlimefunItems.ENCHANTMENT_RUNE, amalgamateDustRare
+                amalgamateDustRare, SlimefunItems.LAVA_CRYSTAL, amalgamateDustRare
             },
             1000,
             Color.fromRGB(195, 195, 150)
