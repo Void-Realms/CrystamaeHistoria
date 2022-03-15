@@ -349,12 +349,12 @@ public class Gadgets {
                 "damaged.",
                 "",
                 ThemeType.CLICK_INFO.getColor() + "Damage: " + ThemeType.PASSIVE.getColor() + "1",
-                ThemeType.CLICK_INFO.getColor() + "Player Drops: " + ThemeType.PASSIVE.getColor() + "Yes"
+                ThemeType.CLICK_INFO.getColor() + "Player Drops: " + ThemeType.PASSIVE.getColor() + "No"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             doomedPlateRecipe.getDisplayRecipe(),
             1,
-            true
+            false
         );
 
         // Eviscerating Plate
@@ -376,12 +376,12 @@ public class Gadgets {
                 "damaged.",
                 "",
                 ThemeType.CLICK_INFO.getColor() + "Damage: " + ThemeType.PASSIVE.getColor() + "2",
-                ThemeType.CLICK_INFO.getColor() + "Player Drops: " + ThemeType.PASSIVE.getColor() + "Yes"
+                ThemeType.CLICK_INFO.getColor() + "Player Drops: " + ThemeType.PASSIVE.getColor() + "No"
             ),
             DummyLiquefactionBasinCrafting.TYPE,
             evisceratingPlateRecipe.getDisplayRecipe(),
             2,
-            true
+            false
         );
 
         // Trap Plate
