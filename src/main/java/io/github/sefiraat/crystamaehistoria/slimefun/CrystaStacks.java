@@ -4,8 +4,8 @@ import io.github.sefiraat.crystamaehistoria.slimefun.items.artistic.MagicPaintbr
 import io.github.sefiraat.crystamaehistoria.utils.GeneralUtils;
 import io.github.sefiraat.crystamaehistoria.utils.Skulls;
 import io.github.sefiraat.crystamaehistoria.utils.theme.ThemeType;
-import io.github.sefiraat.networks.utils.Theme;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun4.utils.LoreBuilder;
 import lombok.experimental.UtilityClass;
 import org.bukkit.ChatColor;
 import org.bukkit.DyeColor;
@@ -56,7 +56,7 @@ public class CrystaStacks {
     public static final SlimefunItemStack RUNE_DRAGON;
     public static final SlimefunItemStack RUNE_TRUE_WATER;
     public static final SlimefunItemStack RUNE_SOVEREIGN;
-    public static final SlimefunItemStack RUN_SUN;
+    public static final SlimefunItemStack RUNE_SUN;
     public static final SlimefunItemStack RUNE_DAWN;
     public static final SlimefunItemStack RUNE_TWILIGHT;
     public static final SlimefunItemStack RUNE_TRUE_FIRE;
@@ -562,7 +562,7 @@ public class CrystaStacks {
             "one, protection for all."
         );
 
-        RUN_SUN = ThemeType.themedSlimefunItemStack(
+        RUNE_SUN = ThemeType.themedSlimefunItemStack(
             "CRY_RUNE_SUN",
             Skulls.RUNE_M.getPlayerHead(),
             ThemeType.RUNE,
@@ -700,7 +700,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Black)",
             "Paints colored blocks black.",
             "",
-            ChatColor.YELLOW + "100 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(100)
         );
 
         PAINT_BRUSH_BLUE_100 = ThemeType.themedSlimefunItemStack(
@@ -710,7 +710,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Blue)",
             "Paints colored blocks blue.",
             "",
-            ChatColor.YELLOW + "100 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(100)
         );
 
         PAINT_BRUSH_BROWN_100 = ThemeType.themedSlimefunItemStack(
@@ -720,7 +720,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Brown)",
             "Paints colored blocks brown.",
             "",
-            ChatColor.YELLOW + "100 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(100)
         );
 
         PAINT_BRUSH_CYAN_100 = ThemeType.themedSlimefunItemStack(
@@ -730,7 +730,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Cyan)",
             "Paints colored blocks cyan.",
             "",
-            ChatColor.YELLOW + "100 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(100)
         );
 
         PAINT_BRUSH_GRAY_100 = ThemeType.themedSlimefunItemStack(
@@ -740,7 +740,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Gray)",
             "Paints colored blocks gray.",
             "",
-            ChatColor.YELLOW + "100 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(100)
         );
 
         PAINT_BRUSH_GREEN_100 = ThemeType.themedSlimefunItemStack(
@@ -750,7 +750,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Green)",
             "Paints colored blocks green.",
             "",
-            ChatColor.YELLOW + "100 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(100)
         );
 
         PAINT_BRUSH_LIGHT_BLUE_100 = ThemeType.themedSlimefunItemStack(
@@ -760,7 +760,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Light Blue)",
             "Paints colored blocks light blue.",
             "",
-            ChatColor.YELLOW + "100 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(100)
         );
 
         PAINT_BRUSH_LIGHT_GRAY_100 = ThemeType.themedSlimefunItemStack(
@@ -770,7 +770,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Light Gray)",
             "Paints colored blocks light gray.",
             "",
-            ChatColor.YELLOW + "100 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(100)
         );
 
         PAINT_BRUSH_LIME_100 = ThemeType.themedSlimefunItemStack(
@@ -780,7 +780,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Lime)",
             "Paints colored blocks lime.",
             "",
-            ChatColor.YELLOW + "100 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(100)
         );
 
         PAINT_BRUSH_MAGENTA_100 = ThemeType.themedSlimefunItemStack(
@@ -790,7 +790,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Magenta)",
             "Paints colored blocks magenta.",
             "",
-            ChatColor.YELLOW + "100 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(100)
         );
 
         PAINT_BRUSH_ORANGE_100 = ThemeType.themedSlimefunItemStack(
@@ -800,7 +800,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Orange)",
             "Paints colored blocks orange.",
             "",
-            ChatColor.YELLOW + "100 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(100)
         );
 
         PAINT_BRUSH_PINK_100 = ThemeType.themedSlimefunItemStack(
@@ -810,7 +810,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Pink)",
             "Paints colored blocks pink.",
             "",
-            ChatColor.YELLOW + "100 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(100)
         );
 
         PAINT_BRUSH_PURPLE_100 = ThemeType.themedSlimefunItemStack(
@@ -820,7 +820,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Purple)",
             "Paints colored blocks purple.",
             "",
-            ChatColor.YELLOW + "100 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(100)
         );
 
         PAINT_BRUSH_RED_100 = ThemeType.themedSlimefunItemStack(
@@ -830,7 +830,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Red)",
             "Paints colored blocks red.",
             "",
-            ChatColor.YELLOW + "100 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(100)
         );
 
         PAINT_BRUSH_WHITE_100 = ThemeType.themedSlimefunItemStack(
@@ -840,7 +840,7 @@ public class CrystaStacks {
             "Magic Paintbrush (White)",
             "Paints colored blocks white.",
             "",
-            ChatColor.YELLOW + "100 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(100)
         );
 
         PAINT_BRUSH_YELLOW_100 = ThemeType.themedSlimefunItemStack(
@@ -850,7 +850,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Yellow)",
             "Paints colored blocks yellow.",
             "",
-            ChatColor.YELLOW + "100 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(100)
         );
 
         PAINT_BRUSH_BLACK_1000 = ThemeType.themedSlimefunItemStack(
@@ -860,7 +860,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Black)",
             "Paints colored blocks black.",
             "",
-            ChatColor.YELLOW + "1000 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(1000)
         );
 
         PAINT_BRUSH_BLUE_1000 = ThemeType.themedSlimefunItemStack(
@@ -870,7 +870,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Blue)",
             "Paints colored blocks blue.",
             "",
-            ChatColor.YELLOW + "1000 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(1000)
         );
 
         PAINT_BRUSH_BROWN_1000 = ThemeType.themedSlimefunItemStack(
@@ -880,7 +880,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Brown)",
             "Paints colored blocks brown.",
             "",
-            ChatColor.YELLOW + "1000 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(1000)
         );
 
         PAINT_BRUSH_CYAN_1000 = ThemeType.themedSlimefunItemStack(
@@ -890,7 +890,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Cyan)",
             "Paints colored blocks cyan.",
             "",
-            ChatColor.YELLOW + "1000 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(1000)
         );
 
         PAINT_BRUSH_GRAY_1000 = ThemeType.themedSlimefunItemStack(
@@ -900,7 +900,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Gray)",
             "Paints colored blocks gray.",
             "",
-            ChatColor.YELLOW + "1000 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(1000)
         );
 
         PAINT_BRUSH_GREEN_1000 = ThemeType.themedSlimefunItemStack(
@@ -910,7 +910,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Green)",
             "Paints colored blocks green.",
             "",
-            ChatColor.YELLOW + "1000 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(1000)
         );
 
         PAINT_BRUSH_LIGHT_BLUE_1000 = ThemeType.themedSlimefunItemStack(
@@ -920,7 +920,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Light Blue)",
             "Paints colored blocks light blue.",
             "",
-            ChatColor.YELLOW + "1000 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(1000)
         );
 
         PAINT_BRUSH_LIGHT_GRAY_1000 = ThemeType.themedSlimefunItemStack(
@@ -930,7 +930,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Light Gray)",
             "Paints colored blocks light gray.",
             "",
-            ChatColor.YELLOW + "1000 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(1000)
         );
 
         PAINT_BRUSH_LIME_1000 = ThemeType.themedSlimefunItemStack(
@@ -940,7 +940,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Lime)",
             "Paints colored blocks lime.",
             "",
-            ChatColor.YELLOW + "1000 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(1000)
         );
 
         PAINT_BRUSH_MAGENTA_1000 = ThemeType.themedSlimefunItemStack(
@@ -950,7 +950,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Magenta)",
             "Paints colored blocks magenta.",
             "",
-            ChatColor.YELLOW + "1000 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(1000)
         );
 
         PAINT_BRUSH_ORANGE_1000 = ThemeType.themedSlimefunItemStack(
@@ -960,7 +960,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Orange)",
             "Paints colored blocks orange.",
             "",
-            ChatColor.YELLOW + "1000 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(1000)
         );
 
         PAINT_BRUSH_PINK_1000 = ThemeType.themedSlimefunItemStack(
@@ -970,7 +970,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Pink)",
             "Paints colored blocks pink.",
             "",
-            ChatColor.YELLOW + "1000 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(1000)
         );
 
         PAINT_BRUSH_PURPLE_1000 = ThemeType.themedSlimefunItemStack(
@@ -980,7 +980,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Purple)",
             "Paints colored blocks purple.",
             "",
-            ChatColor.YELLOW + "1000 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(1000)
         );
 
         PAINT_BRUSH_RED_1000 = ThemeType.themedSlimefunItemStack(
@@ -990,7 +990,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Red)",
             "Paints colored blocks red.",
             "",
-            ChatColor.YELLOW + "1000 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(1000)
         );
 
         PAINT_BRUSH_WHITE_1000 = ThemeType.themedSlimefunItemStack(
@@ -1000,7 +1000,7 @@ public class CrystaStacks {
             "Magic Paintbrush (White)",
             "Paints colored blocks white.",
             "",
-            ChatColor.YELLOW + "1000 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(1000)
         );
 
         PAINT_BRUSH_YELLOW_1000 = ThemeType.themedSlimefunItemStack(
@@ -1010,7 +1010,7 @@ public class CrystaStacks {
             "Magic Paintbrush (Yellow)",
             "Paints colored blocks yellow.",
             "",
-            ChatColor.YELLOW + "1000 Uses " + ChatColor.GRAY + "left"
+            LoreBuilder.usesLeft(1000)
         );
 
         PAINT_BRUSH_INFINITE = ThemeType.themedSlimefunItemStack(
@@ -1124,7 +1124,7 @@ public class CrystaStacks {
             "potential. Must be placed on a",
             "Exaltation Stand to operate.",
             "",
-            Theme.CLICK_INFO + "Power: " + Theme.PASSIVE + "2",
+            ThemeType.CLICK_INFO + "Power: " + ThemeType.PASSIVE + "2",
             "",
             ThemeType.CLICK_INFO.getColor() + "Requires: Story Rank > Emeritus Professor"
         );
@@ -1138,7 +1138,7 @@ public class CrystaStacks {
             "potential. Must be placed on a",
             "Exaltation Stand to operate.",
             "",
-            Theme.CLICK_INFO + "Power: " + Theme.PASSIVE + "3",
+            ThemeType.CLICK_INFO + "Power: " + ThemeType.PASSIVE + "3",
             "",
             ThemeType.CLICK_INFO.getColor() + "Requires: Story Rank > Emeritus Professor"
         );
