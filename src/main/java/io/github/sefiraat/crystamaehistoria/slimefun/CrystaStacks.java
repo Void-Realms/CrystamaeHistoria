@@ -1386,7 +1386,7 @@ public class CrystaStacks {
             "damaged.",
             "",
             ThemeType.CLICK_INFO.getColor() + "Damage: " + ThemeType.PASSIVE.getColor() + "1",
-            ThemeType.CLICK_INFO.getColor() + "Player Drops: " + ThemeType.PASSIVE.getColor() + "Yes"
+            ThemeType.CLICK_INFO.getColor() + "Player Drops: " + ThemeType.PASSIVE.getColor() + "No"
         );
 
         EVISCERATING_PLATE = ThemeType.themedSlimefunItemStack(
@@ -1399,7 +1399,7 @@ public class CrystaStacks {
             "damaged.",
             "",
             ThemeType.CLICK_INFO.getColor() + "Damage: " + ThemeType.PASSIVE.getColor() + "2",
-            ThemeType.CLICK_INFO.getColor() + "Player Drops: " + ThemeType.PASSIVE.getColor() + "Yes"
+            ThemeType.CLICK_INFO.getColor() + "Player Drops: " + ThemeType.PASSIVE.getColor() + "No"
         );
 
         SHREDDING_PLATE = ThemeType.themedSlimefunItemStack(
@@ -1412,7 +1412,7 @@ public class CrystaStacks {
             "damaged.",
             "",
             ThemeType.CLICK_INFO.getColor() + "Damage: " + ThemeType.PASSIVE.getColor() + "3",
-            ThemeType.CLICK_INFO.getColor() + "Player Drops: " + ThemeType.PASSIVE.getColor() + "Yes"
+            ThemeType.CLICK_INFO.getColor() + "Player Drops: " + ThemeType.PASSIVE.getColor() + "No"
         );
 
         TRAP_PLATE = ThemeType.themedSlimefunItemStack(

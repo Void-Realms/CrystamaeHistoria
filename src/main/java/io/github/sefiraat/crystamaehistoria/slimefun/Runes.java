@@ -291,9 +291,9 @@ public class Runes {
             CrystaStacks.RUNE_SOUL,
             RecipeType.ANCIENT_ALTAR,
             new ItemStack[]{
-                CrystaStacks.SOUL_STAND, new ItemStack(Material.ELYTRA), SlimefunItems.SOULBOUND_RUNE,
+                CrystaStacks.SOUL_STAND, new ItemStack(Material.ELYTRA), SlimefunItems.ESSENCE_OF_AFTERLIFE,
                 new ItemStack(Material.CAKE), CrystaStacks.ARCANE_SIGIL, new ItemStack(Material.CAKE),
-                SlimefunItems.SOULBOUND_RUNE, new ItemStack(Material.ELYTRA), CrystaStacks.SOUL_STAND
+                SlimefunItems.ESSENCE_OF_AFTERLIFE, new ItemStack(Material.ELYTRA), CrystaStacks.SOUL_STAND
             }
         );
 
@@ -327,9 +327,9 @@ public class Runes {
             CrystaStacks.RUNE_EIGHTFOLD,
             RecipeType.ANCIENT_ALTAR,
             new ItemStack[]{
-                CrystaStacks.EPHEMERAL_WORKBENCH, new ItemStack(Material.SPONGE), SlimefunItems.ENCHANTMENT_RUNE,
+                CrystaStacks.EPHEMERAL_WORKBENCH, new ItemStack(Material.SPONGE), SlimefunItems.MAGICAL_GLASS,
                 new ItemStack(Material.BASALT), CrystaStacks.ARCANE_SIGIL, new ItemStack(Material.BASALT),
-                SlimefunItems.ENCHANTMENT_RUNE, new ItemStack(Material.SPONGE), CrystaStacks.EPHEMERAL_WORKBENCH
+                SlimefunItems.MAGICAL_GLASS, new ItemStack(Material.SPONGE), CrystaStacks.EPHEMERAL_WORKBENCH
             }
         );
 
