@@ -1926,7 +1926,9 @@ public class CrystaStacks {
             "Prismatic Gilder",
             "Converts Prismatic Crysta into a",
             "Thin film that can overlay other",
-            "magical items."
+            "magical items.",
+            "",
+            ThemeType.CLICK_INFO.getColor() + "Requires: Story Rank > Emeritus Professor"
         );
 
         // Tools
@@ -2296,7 +2298,7 @@ public class CrystaStacks {
             ThemeType.TOOL,
             "Block Veil - Energy Net",
             "Right click to place a magical",
-            "block veil over a cargo node.",
+            "block veil over an energy connector.",
             "The cover will mimic the block",
             "in your offhand.",
             "One time use per item."
